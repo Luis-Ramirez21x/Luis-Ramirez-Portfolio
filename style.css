@@ -5,7 +5,8 @@ body{
 h2{
     text-align: center;
     font-size:39px;
-    padding-top:30px;
+    
+    padding: 38px;
 }
 
 h3{
@@ -165,6 +166,9 @@ h1{
 .projects{
     background-color: black;
     height: fit-content;
+    padding:15px;
+    display: flex;
+    flex-wrap: wrap;
     
 }
 
@@ -186,12 +190,7 @@ h1{
 }
 
 
-.projects img{
-    height: 500px;
-    width: 550px;
-    margin:13px;
-    border-radius: 35px;
-}
+
 
 
 
@@ -246,5 +245,8 @@ a{
 }
 
 
+#projects{
+    width:100%;
+}
 
 
